@@ -1,7 +1,4 @@
-<!-- TITLE: File System Utilization -->
-<!-- SUBTITLE: Cheatbook for File System Utilization -->
+<!-- TITLE: Linux Cheatbook -->
+<!-- SUBTITLE: Cheatbook for Linux OS -->
 
-# File System Utilization
-
-**1. Find large files**
-find . -xdev -size +1000000c -type f -exec ls -l {} \; | sort -k5n | tail -20
+# Linux Cheatbook
