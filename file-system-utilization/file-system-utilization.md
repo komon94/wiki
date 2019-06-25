@@ -1,6 +1,6 @@
 <!-- TITLE: File System Utilization -->
-<!-- SUBTITLE: A quick summary of File System Utilization -->
+<!-- SUBTITLE: Cheats for File System Utilization -->
 
-# Header
+# File System Utilization
 1. **Find large files**
 find . -xdev -size +1000000c -type f -exec ls -l {} ; | sort -k5n | tail -20
